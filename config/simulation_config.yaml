@@ -1,0 +1,18 @@
+simulation_parameters:
+  mode_m: 4
+  n_fourier_modes: 4
+  n_layers: 4
+  layer_spacing: 3.0
+  exp_decay_rate: 0.5
+  time_steps: 100
+  output_format: 
+    - image
+    - gif
+    - mp4
+  animation_settings:
+    fps: 30
+    duration: 5.0
+  visualization:
+    colormap: coolwarm
+    surface_alpha: 0.7
+    save_directory: output/animations

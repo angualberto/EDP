@@ -1,0 +1,32 @@
+EDP/
+├── tornado_simulation/
+│   ├── __init__.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── wave_equations.py          # PDE implementations
+│   │   ├── fourier_series.py          # Fourier analysis
+│   │   ├── differential_operators.py   # Nabla, Laplacian, etc.
+│   │   └── boundary_conditions.py     # BC handling
+│   ├── solvers/
+│   │   ├── __init__.py
+│   │   ├── finite_difference.py       # FD methods
+│   │   ├── spectral_methods.py        # Spectral/Fourier methods
+│   │   └── time_integration.py        # Time stepping
+│   ├── visualization/
+│   │   ├── __init__.py
+│   │   ├── tornado_plotter.py
+│   │   └── animation_tools.py
+│   └── examples/
+│       ├── basic_tornado.py
+│       ├── wave_propagation.py
+│       └── fourier_analysis.py
+├── docs/
+│   ├── equations.md                   # Mathematical formulations
+│   ├── methods.md                     # Numerical methods
+│   └── examples.md                    # Usage examples
+├── tests/
+│   ├── test_wave_equations.py
+│   ├── test_fourier_series.py
+│   └── test_solvers.py
+├── requirements.txt
+└── README.md

@@ -1,0 +1,15 @@
+{
+  "modo_m": 4,
+  "n_fourier_modes": 4,
+  "n_layers": 4,
+  "layer_spacing": 3.0,
+  "exp_decay_rate": 0.5,
+  "time_steps": 100,
+  "theta_steps": 60,
+  "r_min": 0.5,
+  "r_max": 10,
+  "z_value": 5.0,
+  "output_format": "png",
+  "animation_fps": 30,
+  "video_duration": 10
+}
